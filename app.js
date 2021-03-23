@@ -3,7 +3,7 @@ const app = require("express")();
 const PORT = process.env.PORT || 3000;
 
 app.get("", (req, res) => {
-  res.send("Hello world");
+  res.send("Subdomain Takeover by akt01gali");
 });
 
 app.listen(PORT, () => {
